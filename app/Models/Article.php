@@ -92,7 +92,7 @@ class Article extends Model
             return $this->slug;
         }
 
-        return $this->title;
+        return str_slug($this->title);
     }
 
     /*

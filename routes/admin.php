@@ -10,17 +10,8 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('login', function () {
-    return redirect('/admin/login');
-});
-Route::get('register', function () {
-    return redirect('/admin/register');
-});
 
-
-
-Route::get('/', function () {
-    return view('welcome');
-});
-Auth::routes();
-Route::get('/home', 'HomeController@index')->name('home');
+// Backpack\NewsCRUD
+CRUD::resource('article', 'ArticleCrudController');
+CRUD::resource('category', 'CategoryCrudController');
+CRUD::resource('tag', 'TagCrudController');

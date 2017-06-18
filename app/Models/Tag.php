@@ -76,7 +76,7 @@ class Tag extends Model
             return $this->slug;
         }
 
-        return $this->name;
+        return str_slug($this->name);
     }
 
     /*
