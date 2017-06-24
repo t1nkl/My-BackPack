@@ -86,7 +86,7 @@ class ArticleCrudController extends CrudController
         $this->crud->addField([    // WYSIWYG
                                 'name' => 'content',
                                 'label' => 'Content',
-                                'type' => 'tinymce',
+                                'type' => 'ckeditor',
                                 'placeholder' => 'Your textarea text here',
                             ]);
         $this->crud->addField([    // Image

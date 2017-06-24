@@ -168,6 +168,7 @@ return [
          */
         Laravel\Tinker\TinkerServiceProvider::class,
         Unicodeveloper\Identify\IdentifyServiceProvider::class,
+        Barryvdh\Debugbar\ServiceProvider::class,
 
         /*
          * Backpack Service Providers...
@@ -241,6 +242,8 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
         'Identify' => Unicodeveloper\Identify\Facades\IdentityFacade::class,
+        'Helpers'   => App\Libraries\Helpers::class,
+        'Debugbar' => Barryvdh\Debugbar\Facade::class,
 
     ],
 
