@@ -180,7 +180,6 @@ return [
         Backpack\BackupManager\BackupManagerServiceProvider::class,
         Backpack\LogManager\LogManagerServiceProvider::class,
         Cviebrock\EloquentSluggable\ServiceProvider::class, 
-        Backpack\PageManager\PageManagerServiceProvider::class,
         Backpack\PermissionManager\PermissionManagerServiceProvider::class,
         Spatie\Translatable\TranslatableServiceProvider::class,
 
