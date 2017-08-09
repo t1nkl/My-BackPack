@@ -169,6 +169,7 @@ return [
         Laravel\Tinker\TinkerServiceProvider::class,
         Unicodeveloper\Identify\IdentifyServiceProvider::class,
         Barryvdh\Debugbar\ServiceProvider::class,
+        Spatie\Sitemap\SitemapServiceProvider::class,
 
         /*
          * Backpack Service Providers...

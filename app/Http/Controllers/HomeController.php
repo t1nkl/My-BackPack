@@ -4,6 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+use Spatie\Sitemap\SitemapGenerator;
+use Spatie\Sitemap\Tags\Url;
+
 class HomeController extends Controller
 {
     /**
@@ -23,6 +26,13 @@ class HomeController extends Controller
      */
     public function index()
     {
+        SitemapGenerator::create('http://backpack.dev')->hasCrawled(function (Url $url) {
+            if ($url->segment(1) === 'login' || $url->segment(1) === 'register' || $url->segment(1) === 'admin') {
+                return;
+            }
+            return $url;
+        })->writeToFile(public_path('sitemap.xml'));
+
         return view('home');
     }
 }

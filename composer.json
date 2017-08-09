@@ -18,6 +18,7 @@
         "intervention/image": "^2.3",
         "laravel/framework": "5.4.*",
         "laravel/tinker": "~1.0",
+        "spatie/laravel-sitemap": "^2.2",
         "spatie/laravel-translatable": "^1.2"
     },
     "require-dev": {
