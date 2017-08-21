@@ -57,10 +57,12 @@ class ArticleCrudController extends CrudController
                             ]);
 
         // ------ CRUD FIELDS
-        $this->crud->addField([    // TEXT
+        $this->crud->addField([
                                 'name' => 'title',
                                 'label' => 'Title',
                                 'type' => 'text',
+                                'count_down' => 70,
+                                'attributes' => ['maxlength' => 70],
                                 'placeholder' => 'Your title here',
                             ]);
         $this->crud->addField([
@@ -71,30 +73,30 @@ class ArticleCrudController extends CrudController
                                 // 'disabled' => 'disabled'
                             ]);
 
-        $this->crud->addField([    // TEXT
+        $this->crud->addField([
                                 'name' => 'date',
                                 'label' => 'Date',
                                 'type' => 'date',
                                 'value' => date('Y-m-d'),
                             ], 'create');
-        $this->crud->addField([    // TEXT
+        $this->crud->addField([
                                 'name' => 'date',
                                 'label' => 'Date',
                                 'type' => 'date',
                             ], 'update');
 
-        $this->crud->addField([    // WYSIWYG
+        $this->crud->addField([
                                 'name' => 'content',
                                 'label' => 'Content',
                                 'type' => 'ckeditor',
-                                'placeholder' => 'Your textarea text here',
+                                'extra_plugins' => ['oembed', 'widget', 'justify', 'btgrid'],
                             ]);
-        $this->crud->addField([    // Image
+        $this->crud->addField([
                                 'name' => 'image',
                                 'label' => 'Image',
                                 'type' => 'browse',
                             ]);
-        $this->crud->addField([    // SELECT
+        $this->crud->addField([
                                 'label' => 'Category',
                                 'type' => 'select2',
                                 'name' => 'category_id',
@@ -102,7 +104,7 @@ class ArticleCrudController extends CrudController
                                 'attribute' => 'name',
                                 'model' => "App\Models\Category",
                             ]);
-        $this->crud->addField([       // Select2Multiple = n-n relationship (with pivot table)
+        $this->crud->addField([
                                 'label' => 'Tags',
                                 'type' => 'select2_multiple',
                                 'name' => 'tags', // the method that defines the relationship in your Model
@@ -111,12 +113,12 @@ class ArticleCrudController extends CrudController
                                 'model' => "App\Models\Tag", // foreign key model
                                 'pivot' => true, // on create&update, do you need to add/delete pivot table entries?
                             ]);
-        $this->crud->addField([    // ENUM
+        $this->crud->addField([
                                 'name' => 'status',
                                 'label' => 'Status',
                                 'type' => 'enum',
                             ]);
-        $this->crud->addField([    // CHECKBOX
+        $this->crud->addField([
                                 'name' => 'featured',
                                 'label' => 'Featured item',
                                 'type' => 'checkbox',

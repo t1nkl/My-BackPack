@@ -11,7 +11,9 @@
 |
 */
 
-// Backpack\NewsCRUD
+Route::get('sitemap', 'SitemapGeneratorController@index');
+
+// Backpack
 CRUD::resource('article', 'ArticleCrudController');
 CRUD::resource('category', 'CategoryCrudController');
 CRUD::resource('tag', 'TagCrudController');

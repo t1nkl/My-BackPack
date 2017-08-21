@@ -119,4 +119,5 @@ return [
 
     // File manager
     'file_manager' => 'Файловый менеджер',
+    'language'               => 'язык',
 ];

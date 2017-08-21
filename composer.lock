@@ -107,16 +107,16 @@
         },
         {
             "name": "backpack/base",
-            "version": "0.7.21",
+            "version": "0.7.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Laravel-Backpack/Base.git",
-                "reference": "5a7a56715ca63cd46bafe984dfeb5c6d4791d77d"
+                "reference": "eca3f25caf10e35c3741055522041ad6bec68f60"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Laravel-Backpack/Base/zipball/5a7a56715ca63cd46bafe984dfeb5c6d4791d77d",
-                "reference": "5a7a56715ca63cd46bafe984dfeb5c6d4791d77d",
+                "url": "https://api.github.com/repos/Laravel-Backpack/Base/zipball/eca3f25caf10e35c3741055522041ad6bec68f60",
+                "reference": "eca3f25caf10e35c3741055522041ad6bec68f60",
                 "shasum": ""
             },
             "require": {
@@ -162,20 +162,20 @@
                 "backpack",
                 "base"
             ],
-            "time": "2017-07-18T14:32:38+00:00"
+            "time": "2017-08-11T05:04:18+00:00"
         },
         {
             "name": "backpack/crud",
-            "version": "3.2.14",
+            "version": "3.2.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Laravel-Backpack/CRUD.git",
-                "reference": "fd7b29852224a25528ac8d19e3eb91deb77f4de2"
+                "reference": "a1e67c526311640437bdc4f840a8c9288eddc1ec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Laravel-Backpack/CRUD/zipball/fd7b29852224a25528ac8d19e3eb91deb77f4de2",
-                "reference": "fd7b29852224a25528ac8d19e3eb91deb77f4de2",
+                "url": "https://api.github.com/repos/Laravel-Backpack/CRUD/zipball/a1e67c526311640437bdc4f840a8c9288eddc1ec",
+                "reference": "a1e67c526311640437bdc4f840a8c9288eddc1ec",
                 "shasum": ""
             },
             "require": {
@@ -226,20 +226,20 @@
                 "read",
                 "update"
             ],
-            "time": "2017-08-04T09:43:00+00:00"
+            "time": "2017-08-21T09:41:12+00:00"
         },
         {
             "name": "backpack/langfilemanager",
-            "version": "1.0.18",
+            "version": "1.0.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Laravel-Backpack/LangFileManager.git",
-                "reference": "6d83aaaec4579ccc874e93c0df110bf9810f6a18"
+                "reference": "3164c25e30188fc704fb86397019d066723dbfe5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Laravel-Backpack/LangFileManager/zipball/6d83aaaec4579ccc874e93c0df110bf9810f6a18",
-                "reference": "6d83aaaec4579ccc874e93c0df110bf9810f6a18",
+                "url": "https://api.github.com/repos/Laravel-Backpack/LangFileManager/zipball/3164c25e30188fc704fb86397019d066723dbfe5",
+                "reference": "3164c25e30188fc704fb86397019d066723dbfe5",
                 "shasum": ""
             },
             "require": {
@@ -297,20 +297,20 @@
                 "translationmanager",
                 "updivision"
             ],
-            "time": "2016-09-24T14:33:54+00:00"
+            "time": "2017-08-11T05:12:25+00:00"
         },
         {
             "name": "backpack/logmanager",
-            "version": "2.3.14",
+            "version": "2.3.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Laravel-Backpack/LogManager.git",
-                "reference": "25dd4a18a91d628336497681507323bb34b4db68"
+                "reference": "3d64f54ce8b2431e84b7611ffead8f27fa6c4696"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Laravel-Backpack/LogManager/zipball/25dd4a18a91d628336497681507323bb34b4db68",
-                "reference": "25dd4a18a91d628336497681507323bb34b4db68",
+                "url": "https://api.github.com/repos/Laravel-Backpack/LogManager/zipball/3d64f54ce8b2431e84b7611ffead8f27fa6c4696",
+                "reference": "3d64f54ce8b2431e84b7611ffead8f27fa6c4696",
                 "shasum": ""
             },
             "require": {
@@ -354,20 +354,20 @@
                 "log manager",
                 "logs"
             ],
-            "time": "2017-07-10T05:23:10+00:00"
+            "time": "2017-08-11T05:19:55+00:00"
         },
         {
             "name": "backpack/permissionmanager",
-            "version": "2.1.18",
+            "version": "2.1.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Laravel-Backpack/PermissionManager.git",
-                "reference": "afe54eae58ace53ded29ee36bb8ca522297b3dbd"
+                "reference": "c9604481896169d33855978c15bdb332f2a5fe6b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Laravel-Backpack/PermissionManager/zipball/afe54eae58ace53ded29ee36bb8ca522297b3dbd",
-                "reference": "afe54eae58ace53ded29ee36bb8ca522297b3dbd",
+                "url": "https://api.github.com/repos/Laravel-Backpack/PermissionManager/zipball/c9604481896169d33855978c15bdb332f2a5fe6b",
+                "reference": "c9604481896169d33855978c15bdb332f2a5fe6b",
                 "shasum": ""
             },
             "require": {
@@ -426,7 +426,7 @@
                 "updivision",
                 "users roles admin"
             ],
-            "time": "2017-07-06T05:18:06+00:00"
+            "time": "2017-08-11T05:27:33+00:00"
         },
         {
             "name": "barryvdh/elfinder-flysystem-driver",
@@ -1147,33 +1147,33 @@
         },
         {
             "name": "doctrine/inflector",
-            "version": "v1.1.0",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/inflector.git",
-                "reference": "90b2128806bfde671b6952ab8bea493942c1fdae"
+                "reference": "e11d84c6e018beedd929cff5220969a3c6d1d462"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/inflector/zipball/90b2128806bfde671b6952ab8bea493942c1fdae",
-                "reference": "90b2128806bfde671b6952ab8bea493942c1fdae",
+                "url": "https://api.github.com/repos/doctrine/inflector/zipball/e11d84c6e018beedd929cff5220969a3c6d1d462",
+                "reference": "e11d84c6e018beedd929cff5220969a3c6d1d462",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.2"
+                "php": "^7.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "4.*"
+                "phpunit/phpunit": "^6.2"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.1.x-dev"
+                    "dev-master": "1.2.x-dev"
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "Doctrine\\Common\\Inflector\\": "lib/"
+                "psr-4": {
+                    "Doctrine\\Common\\Inflector\\": "lib/Doctrine/Common/Inflector"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1210,7 +1210,7 @@
                 "singularize",
                 "string"
             ],
-            "time": "2015-11-06T14:35:42+00:00"
+            "time": "2017-07-22T12:18:28+00:00"
         },
         {
             "name": "doctrine/lexer",
@@ -1713,20 +1713,20 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.4.32",
+            "version": "v5.4.33",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "b8300578d159199b1195413b67318c79068cd24d"
+                "reference": "e53a81a2bf406f501cdf818ad949f8d6c8dabfc0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/b8300578d159199b1195413b67318c79068cd24d",
-                "reference": "b8300578d159199b1195413b67318c79068cd24d",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/e53a81a2bf406f501cdf818ad949f8d6c8dabfc0",
+                "reference": "e53a81a2bf406f501cdf818ad949f8d6c8dabfc0",
                 "shasum": ""
             },
             "require": {
-                "doctrine/inflector": "~1.1.0",
+                "doctrine/inflector": "~1.1",
                 "erusev/parsedown": "~1.6",
                 "ext-mbstring": "*",
                 "ext-openssl": "*",
@@ -1838,7 +1838,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2017-08-03T12:59:42+00:00"
+            "time": "2017-08-14T20:17:41+00:00"
         },
         {
             "name": "laravel/tinker",
@@ -3265,16 +3265,16 @@
         },
         {
             "name": "studio-42/elfinder",
-            "version": "2.1.26",
+            "version": "2.1.28",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Studio-42/elFinder.git",
-                "reference": "2a4a721dcf8399a2c09f986a1b38eda895d12680"
+                "reference": "a301fae6d57a3b2b7663ebaef094720a4690291d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Studio-42/elFinder/zipball/2a4a721dcf8399a2c09f986a1b38eda895d12680",
-                "reference": "2a4a721dcf8399a2c09f986a1b38eda895d12680",
+                "url": "https://api.github.com/repos/Studio-42/elFinder/zipball/a301fae6d57a3b2b7663ebaef094720a4690291d",
+                "reference": "a301fae6d57a3b2b7663ebaef094720a4690291d",
                 "shasum": ""
             },
             "require": {
@@ -3319,7 +3319,7 @@
             ],
             "description": "File manager for web",
             "homepage": "http://elfinder.org",
-            "time": "2017-07-17T05:37:56+00:00"
+            "time": "2017-08-16T15:03:29+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -3862,16 +3862,16 @@
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.4.0",
+            "version": "v1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "f29dca382a6485c3cbe6379f0c61230167681937"
+                "reference": "7c8fae0ac1d216eb54349e6a8baa57d515fe8803"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/f29dca382a6485c3cbe6379f0c61230167681937",
-                "reference": "f29dca382a6485c3cbe6379f0c61230167681937",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/7c8fae0ac1d216eb54349e6a8baa57d515fe8803",
+                "reference": "7c8fae0ac1d216eb54349e6a8baa57d515fe8803",
                 "shasum": ""
             },
             "require": {
@@ -3883,7 +3883,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.4-dev"
+                    "dev-master": "1.5-dev"
                 }
             },
             "autoload": {
@@ -3917,7 +3917,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2017-06-09T14:24:12+00:00"
+            "time": "2017-06-14T15:44:48+00:00"
         },
         {
             "name": "symfony/process",
@@ -4328,16 +4328,16 @@
     "packages-dev": [
         {
             "name": "backpack/generators",
-            "version": "1.1.9",
+            "version": "1.1.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Laravel-Backpack/Generators.git",
-                "reference": "c3d93e43e81aeba094e2cb44b13b5c54c2dca3aa"
+                "reference": "494cdb635240a885a505e0a7d7ebe3ced3f43b9c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Laravel-Backpack/Generators/zipball/c3d93e43e81aeba094e2cb44b13b5c54c2dca3aa",
-                "reference": "c3d93e43e81aeba094e2cb44b13b5c54c2dca3aa",
+                "url": "https://api.github.com/repos/Laravel-Backpack/Generators/zipball/494cdb635240a885a505e0a7d7ebe3ced3f43b9c",
+                "reference": "494cdb635240a885a505e0a7d7ebe3ced3f43b9c",
                 "shasum": ""
             },
             "require": {
@@ -4381,7 +4381,7 @@
                 "request",
                 "view"
             ],
-            "time": "2017-04-26T05:13:41+00:00"
+            "time": "2017-08-11T04:57:12+00:00"
         },
         {
             "name": "doctrine/instantiator",
@@ -4439,29 +4439,31 @@
         },
         {
             "name": "fzaninotto/faker",
-            "version": "v1.6.0",
+            "version": "v1.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fzaninotto/Faker.git",
-                "reference": "44f9a286a04b80c76a4e5fb7aad8bb539b920123"
+                "reference": "d3ed4cc37051c1ca52d22d76b437d14809fc7e0d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/44f9a286a04b80c76a4e5fb7aad8bb539b920123",
-                "reference": "44f9a286a04b80c76a4e5fb7aad8bb539b920123",
+                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/d3ed4cc37051c1ca52d22d76b437d14809fc7e0d",
+                "reference": "d3ed4cc37051c1ca52d22d76b437d14809fc7e0d",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.3.3|^7.0"
+                "php": "^5.3.3 || ^7.0"
             },
             "require-dev": {
                 "ext-intl": "*",
-                "phpunit/phpunit": "~4.0",
-                "squizlabs/php_codesniffer": "~1.5"
+                "phpunit/phpunit": "^4.0 || ^5.0",
+                "squizlabs/php_codesniffer": "^1.5"
             },
             "type": "library",
             "extra": {
-                "branch-alias": []
+                "branch-alias": {
+                    "dev-master": "1.8-dev"
+                }
             },
             "autoload": {
                 "psr-4": {
@@ -4483,7 +4485,7 @@
                 "faker",
                 "fixtures"
             ],
-            "time": "2016-04-29T12:21:54+00:00"
+            "time": "2017-08-15T16:48:10+00:00"
         },
         {
             "name": "hamcrest/hamcrest-php",
@@ -5048,16 +5050,16 @@
         },
         {
             "name": "phpunit/php-token-stream",
-            "version": "2.0.0",
+            "version": "2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-token-stream.git",
-                "reference": "ecb0b2cdaa0add708fe6f329ef65ae0c5225130b"
+                "reference": "9a02332089ac48e704c70f6cefed30c224e3c0b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/ecb0b2cdaa0add708fe6f329ef65ae0c5225130b",
-                "reference": "ecb0b2cdaa0add708fe6f329ef65ae0c5225130b",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/9a02332089ac48e704c70f6cefed30c224e3c0b0",
+                "reference": "9a02332089ac48e704c70f6cefed30c224e3c0b0",
                 "shasum": ""
             },
             "require": {
@@ -5093,7 +5095,7 @@
             "keywords": [
                 "tokenizer"
             ],
-            "time": "2017-08-03T14:17:41+00:00"
+            "time": "2017-08-20T05:47:52+00:00"
         },
         {
             "name": "phpunit/phpunit",
